@@ -1,4 +1,4 @@
-# image-temperature-adjustment
+# image-temperature-adjustment Golang
 
 ## Introduction
 this application for adjustment images in API Base
@@ -12,9 +12,10 @@ Packages which use in this project
 3. [go-playground](https://github.com/go-playground) - Handling Custom Validation, and Translations
 4. [resize-image](https://github.com/nfnt/resize) - Resized the image
 5. [logging](go.uber.org/zap) - logging
-6. [image-coloring] (https://go.dev/blog/image) - image coloring
+6. [image-coloring](https://go.dev/blog/image) - image coloring
 
-### Clean Architecture
+## Architecture Code
+### Clean Architecture For moduling
 This project has  4 Domain layer :
 
  * Models Layer
@@ -27,6 +28,9 @@ This project has  4 Domain layer :
 ![golang clean architecture](https://github.com/bxcodec/go-clean-arch/raw/master/clean-arch.png)
 
 The explanation about this project's structure  can read from this medium's post : https://medium.com/@imantumorang/golang-clean-archithecture-efd6d7c43047
+
+### Go Standar Project For Layout Pkgs
+more the explanation : https://github.com/golang-standards/project-layout
 
 ### How To Run This Project in local use Docker
 
@@ -69,7 +73,7 @@ http://localhost:8082/swagger/index.html
 
 ### Swagger UI:
 http://localhost:8082/swagger/index.html
-![swagger-image](https://github.com/radyatamaa/image-temperature-adjustment/swagger-image.png)
+![swagger-image](https://github.com/radyatamaa/image-temperature-adjustment/blob/dev/swagger-image.png)
 
-### More about app details test:
-![documentation](https://github.com/radyatamaa/image-temperature-adjustment/document-test-cases-result.pdf)
+### More about documentation app details test:
+[documentation](https://github.com/radyatamaa/image-temperature-adjustment/blob/dev/document-test-cases-result.pdf)
