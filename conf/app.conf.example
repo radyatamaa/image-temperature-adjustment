@@ -1,0 +1,11 @@
+appname = api_gateway_service
+version = 1.1.0
+serverTimeout=120
+executionTimeout=30
+httpport = 8082
+runmode = dev
+autorender = false
+copyrequestbody = true
+EnableDocs = true
+lang="en|id"
+logPath="./logs/api.log"
